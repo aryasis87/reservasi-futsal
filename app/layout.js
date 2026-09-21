@@ -3,10 +3,10 @@ import { Outfit } from 'next/font/google';
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit', display: 'swap' });
 
-const __jsonld = {"@context":"https://schema.org","@type":"SportsActivityLocation","name":"Arena Futsal Garuda","description":"Booking lapangan futsal online","url":"https://futsal.pintuweb.com","areaServed":"ID"};
+const __jsonld = {"@context":"https://schema.org","@type":"SportsActivityLocation","name":"Arena Futsal Garuda","description":"Booking lapangan futsal online","url":"https://reservasi-futsal.vercel.app","areaServed":"ID"};
 
 export const metadata = {
-  metadataBase: new URL("https://futsal.pintuweb.com"),
+  metadataBase: new URL("https://reservasi-futsal.vercel.app"),
   title: "Arena Futsal Garuda — Booking Lapangan Online",
   description: "Booking lapangan futsal online lewat grid jadwal jam × lapangan. Pilih slot, konfirmasi, dan main tanpa ribet.",
   applicationName: "Arena Futsal Garuda",
@@ -14,11 +14,11 @@ export const metadata = {
   authors: [{ name: "Arena Futsal Garuda" }],
   creator: "Arena Futsal Garuda",
   publisher: "Arena Futsal Garuda",
-  alternates: { canonical: "https://futsal.pintuweb.com" },
+  alternates: { canonical: "https://reservasi-futsal.vercel.app" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://futsal.pintuweb.com",
+    url: "https://reservasi-futsal.vercel.app",
     siteName: "Arena Futsal Garuda",
     title: "Arena Futsal Garuda — Booking Lapangan Online",
     description: "Booking lapangan futsal online lewat grid jadwal jam × lapangan. Pilih slot, konfirmasi, dan main tanpa ribet.",
