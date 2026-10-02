@@ -1,4 +1,4 @@
-# Arena Futsal Garuda — Design System (Reservasi Futsal)
+# Gelanggang Petang — Design System (Reservasi Futsal)
 
 > Concept: **sports/esports scoreboard dashboard** — gelap, neon, dinamis, gamified; terasa seperti dashboard arena live. Platform: responsive web. Bahasa: Indonesia.
 

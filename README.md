@@ -1,20 +1,23 @@
-# Arena Futsal Garuda — Booking Lapangan Online
+# Gelanggang Petang — Booking lapangan futsal
 
-Booking lapangan futsal online lewat grid jadwal jam × lapangan. Pilih slot, konfirmasi, dan main tanpa ribet.
+Tiga lapangan futsal indoor (fiktif). Paradigma **grid waktu**: jam × lapangan, pilih sampai empat jam sekaligus dengan harga di tiap kotak.
 
 **Demo live:** https://reservasi-futsal.vercel.app
 
-![Tangkapan layar Arena Futsal Garuda](public/og.jpg)
+![Tangkapan layar](public/og.jpg)
 
-> Aplikasi reservasi contoh. Data tersimpan di browser (localStorage), tanpa backend.
+> Purwarupa desain. Nama usaha, data, dan harga fiktif. Tidak ada pembayaran dan tidak ada yang dikirim ke server: pemesanan disimpan di `localStorage` peramban. Tanggal dan jam dihitung dalam WIB di peramban; keterisian contoh dibuat stabil per tanggal.
 
-## Konsep
+## Fitur
 
-Paradigma **grid waktu**: tabel jam × lapangan, pilih beberapa slot sekaligus, dan total harga diperbarui langsung.
+- Tarif sore, jam emas (18.00–21.59), dan malam; Sabtu–Minggu lebih mahal.
+- `/harga` — tabel tarif, jenis lantai tiap lapangan, aturan, fasilitas.
+- `/sparring` — papan cari lawan: saring per level, pasang tim sendiri, ajak tanding.
+- `/jadwal-saya` — booking dikelompokkan per kode, batal gratis sampai 24 jam sebelum main.
 
 ## Halaman
 
-`/`
+`/` · `/harga` · `/jadwal-saya` · `/sparring`
 
 ## Teknologi
 
@@ -23,7 +26,7 @@ Paradigma **grid waktu**: tabel jam × lapangan, pilih beberapa slot sekaligus, 
 - JavaScript
 - Framer Motion, Lucide (ikon)
 - Font: Outfit (next/font)
-- SEO: metadata per halaman, Open Graph, JSON-LD, sitemap.xml, dan robots.txt
+- SEO: metadata per halaman, Open Graph, sitemap.xml, dan robots.txt
 
 ## Menjalankan secara lokal
 
